@@ -1,0 +1,16 @@
+install node //
+cd to directory project
+npm init 
+npm install webpack webpack-cli  // use for install webpck
+
+create compiler webpack
+go to package.json 
+create "build" : "webpack-cli --mode=production"
+go to cmdline
+npm run build
+
+for watch to mozial or chrome
+go  to package.json 
+create "watch" : "webpack-cli --mode=developement --watch"
+go to cmdline 
+npm run watch 
