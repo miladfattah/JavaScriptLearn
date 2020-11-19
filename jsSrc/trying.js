@@ -2170,9 +2170,4 @@
         // ======================================
 
 
-        class testing {
-            constructor(){
-                this.database =[]
-            }
-            data_
-        }
+     
