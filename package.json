@@ -4,13 +4,16 @@
   "description": "",
   "main": "logger.js",
   "scripts": {
-    "watch" : "webpack-cli --mode=development --watch",
-    "build" : "webpack-cli --mode=production"
+    "watch": "webpack-cli --mode=development --watch",
+    "build": "webpack-cli --mode=production"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1"
   }
 }

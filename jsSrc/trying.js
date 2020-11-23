@@ -1087,7 +1087,7 @@
 
 
 
-    // let names = ["milad" , "hadi" , "saeid"]
+    // let names = ["milad" , "hadi" ]
 
 
     // names[Symbol.iterator]  = function(){
@@ -2131,6 +2131,9 @@
         // ==================================
 
 
+
+
+        
         
         // const name = "milad";
         // export {
@@ -2166,8 +2169,65 @@
             
         // console.log(fulllog.name)
 
-
+    
         // ======================================
+    
+
+        //         import * as all from './logger';
+        //         let log = all.default;
+        //     log.success("this is good");
+        //     log.error("this is bad");
+
+        //     console.log(all.age);
+        //     console.log(all.name);
+        //     console.log(all.obj);
+        //     console.log(all.list)
+        // // ======================================
+
+        // let reslut = 2**5  // return  2pow5 or = Math.pow(2,5)
+        // let str = "milad"
 
 
-     
+
+      //=====================================
+        
+    
+        // let str = "milad fattah";
+
+        // let result = str.padStart(20, '.');
+        // let result2 = str.padEnd(20 , '.');
+
+        // console.log(result)
+        // console.log(result2)
+
+
+
+
+      //=====================================
+
+
+    //   let obj = { a : 11 , b  :22  , c :33}
+    //   let keyobj =Object.keys(obj);
+      
+    //   keyobj.forEach(item => console.log( obj[item])); // return item obj with forEeach
+  
+    // for(const key of keyobj){   // return item obj with for 
+    //     console.log(obj[key]);
+    // }
+
+      //=====================================
+
+    //   let obj = {a : 11 , b : 22 , c : 33}
+
+    //   let valueobj= Object.values(obj);
+    // //   console.log(valueobj)  // for Test
+    //   valueobj.forEach(val =>console.log(val)) // return value from object in the forEach
+
+      //=====================================
+
+    //   let obj = { a : 11 , b : 22 , c : 33}
+
+    //   let KeyVal = Object.entries(obj);
+    // //   console.log(KeyVal) // for Test
+    //   KeyVal.forEach(item =>console.log(item)) //  return  key and value inside list
+    //   KeyVal.forEach(([key ,value]) => console.log(key, value)) // return key and value outsid list
