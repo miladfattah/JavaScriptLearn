@@ -46,3 +46,13 @@
 // }
 
 
+// class RR {
+//     static risk(value){
+//         console.log(`%c this risk : ${value}` , 'color :red');
+//     } 
+//     static rivard(value){
+//         console.log(`%c this rivard : ${value}`, 'color : green')
+//     }
+// }
+
+// export default RR ;

@@ -2172,6 +2172,11 @@
     
         // ======================================
     
+        // import RiskRivard from "./logger"
+        // RiskRivard.risk(20);
+        // RiskRivard.rivard(100);
+        // ======================================
+        
 
         //         import * as all from './logger';
         //         let log = all.default;
@@ -2231,3 +2236,5 @@
     // //   console.log(KeyVal) // for Test
     //   KeyVal.forEach(item =>console.log(item)) //  return  key and value inside list
     //   KeyVal.forEach(([key ,value]) => console.log(key, value)) // return key and value outsid list
+
+
