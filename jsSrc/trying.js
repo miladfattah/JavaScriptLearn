@@ -2238,3 +2238,104 @@
     //   KeyVal.forEach(([key ,value]) => console.log(key, value)) // return key and value outsid list
 
 
+    // ====================
+        ///////////// examp for callback old syntax 
+    // function getrul( callback ,err){
+    //     try {
+    //         let title= "t34itle exm";
+    //         if(title.startsWith('title')){
+    //             let names =  {name:"milad"}
+    //            setTimeout(() => {
+    //             callback(names)
+    //            }, 2000);
+    //         }else{
+    //             throw "this is not found"
+    //         }
+    //     } catch (error) {
+    //        setTimeout(() => {
+    //         err(error)
+    //        }, 2000);
+    //     }
+    // }
+
+
+    // getrul(data=>console.log(data) , err=>console.log(err));
+
+    // ========================
+
+    //////////////////////////examp for promise
+
+    // const getData = (url)=>{
+    //        return new Promise((resolve, reject)=>{
+    //         if(url!= ".ir"){reject("this is not found url"); return}
+    //         setTimeout(() => {
+    //             let data= {name : "milad", family : "fattah"}
+    //             resolve(data)
+    //         }, 2000);
+    //        })
+    // }
+
+    // const saveData= (data)=>{
+    //    return new Promise((resolve, reject)=>{
+    //        if(true){
+    //         resolve(true);
+    //        }else{
+    //         reject("data dont save to dataBase");
+    //        }
+    //    })
+    // }
+
+
+    // getData(".ir")
+    // .then(data=> saveData(data))
+    // .then(status=>console.log(status))
+    // .catch(error=>console.log(error))
+    
+
+    // ======================================== 
+    // ========================================
+    ///////////////sytnax  async for two module function/////////////////
+
+    // let fun1 = async ()=>{
+
+    // }
+    // async function fun2(){
+
+    // }
+    // ============================================
+    ////////////////////////// examp for  async  /////////////////
+
+    // const getData= async(url)=>{
+    //     if(url != '.ir'){ throw new Error('this url not found') }
+    //     let data= {name : "milad", family : "fattah"}
+    //     return data
+    // }
+
+    // async function saveData(){
+    //     if(false){
+    //         return true
+    //     }else{
+    //         throw new Error("this data dont save in Data base")
+    //     }
+    // }
+
+    // getData(".ir")
+    // .then(data=>saveData(data))
+    // .then(status => console.log(status))
+    // .catch(error=>console.log(error))
+
+    // ======================
+    async function test(){
+        setTimeout(() => {
+            console.log("run3")
+        }, 2000);
+    }
+    async function Awaitreturn(){
+       return await test()
+    }
+    Awaitreturn()
+
+    console.log('run1')
+    console.log('run2')
+  
+    console.log('run4')
